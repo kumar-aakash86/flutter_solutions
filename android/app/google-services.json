@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "649759290538",
+    "firebase_url": "https://kids-c289b.firebaseio.com",
+    "project_id": "kids-c289b",
+    "storage_bucket": "kids-c289b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649759290538:android:eda50846e306a9ea",
+        "android_client_info": {
+          "package_name": "ak.game.kid.shapepuzzle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "649759290538-tt5ncc04j52bhaqro36vn05odtluc92c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1P18HtrKWdSoAl8OcrGv8N_tTuo7mZZg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649759290538:android:ee61f87c1d40daf4",
+        "android_client_info": {
+          "package_name": "com.example.demo1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "649759290538-tt5ncc04j52bhaqro36vn05odtluc92c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1P18HtrKWdSoAl8OcrGv8N_tTuo7mZZg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
