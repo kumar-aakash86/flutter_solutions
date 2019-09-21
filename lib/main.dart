@@ -1,6 +1,7 @@
 import 'package:demo1/page/base64-image.dart';
 import 'package:demo1/page/bottom-container.dart';
 import 'package:demo1/page/expandable-demo.dart';
+import 'package:demo1/page/flare-list.dart';
 import 'package:demo1/page/floating-app-bar.dart';
 import 'package:demo1/page/form-demo.dart';
 import 'package:demo1/page/hero/hero-demo.dart';
@@ -71,6 +72,7 @@ class _MyHomePageState extends State<MyHomePage> {
     list.add(ListModel("Hero Demo", HeroDemo()));
     list.add(ListModel("Orientation Demo", OrientationDemo()));
     list.add(ListModel("Bottom Container Demo", BottomContainer()));
+    list.add(ListModel("Flare List Demo", FlareList()));
   }
 
   @override
