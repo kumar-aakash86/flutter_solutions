@@ -1,5 +1,6 @@
 import 'package:demo1/page/base64-image.dart';
 import 'package:demo1/page/bottom-container.dart';
+import 'package:demo1/page/drawing/index.dart';
 import 'package:demo1/page/expandable-demo.dart';
 import 'package:demo1/page/flare-list.dart';
 import 'package:demo1/page/floating-app-bar.dart';
@@ -7,9 +8,11 @@ import 'package:demo1/page/form-demo.dart';
 import 'package:demo1/page/hero/hero-demo.dart';
 import 'package:demo1/page/list-demo.dart';
 import 'package:demo1/page/list-vs-column.dart';
+import 'package:demo1/page/list/multi-list.dart';
 import 'package:demo1/page/modal-demo.dart';
 import 'package:demo1/page/orientation/orientation-demo.dart';
 import 'package:demo1/page/particle-demo.dart';
+import 'package:demo1/page/storage/csv-demo.dart';
 import 'package:demo1/page/tab-demo.dart';
 import 'package:demo1/page/webview-demo.dart';
 import 'package:demo1/page/will-popup.dart';
@@ -57,6 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
     super.initState();
 
     list = new List();
+    list.add(ListModel("Drawing Demos", DrawingList()));
     list.add(ListModel("Base64 Image", BaseImageDemo()));
     list.add(ListModel("List with Card", ListDemo()));
     list.add(ListModel("Explandable", ExpandableDemo()));
@@ -73,6 +77,8 @@ class _MyHomePageState extends State<MyHomePage> {
     list.add(ListModel("Orientation Demo", OrientationDemo()));
     list.add(ListModel("Bottom Container Demo", BottomContainer()));
     list.add(ListModel("Flare List Demo", FlareList()));
+    list.add(ListModel("Multi List Demo", MultiList()));
+    list.add(ListModel("Csv Demo", CsvDemo()));
   }
 
   @override
